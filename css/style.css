@@ -1,0 +1,43 @@
+.background{
+    background: #777777;
+}
+     
+}
+.submission{
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+.feedback {
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+.form-inline {
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 2rem;
+}
+
+input{
+    display: block;
+    width: 100%;
+}
+
+#submit{
+    border:0px;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        background-color: #bbbbbb;
+    }
+}
